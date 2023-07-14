@@ -27,7 +27,7 @@ import {
       setText('');
     };
   
-    // mesajları kolleksiyon çekme
+    // mesajları kolleksiyondan çekme
     useEffect(() => {
       // gerekli filtreleme işlemini yapma
       const queryMessage = query(
@@ -77,7 +77,7 @@ import {
             placeholder="Mesajınızı yazınız.."
             type="text"
           />
-          <button>Gönder</button>
+          <button>Send</button>
         </form>
       </div>
     );

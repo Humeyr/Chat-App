@@ -31,7 +31,7 @@ function App() {
         <Chat room={room} />
       ) : (
         <div className="room-container">
-          <h1>Chat Odası</h1>
+          <h1>Chat Room</h1>
           <p>Which room do you want to join? </p>
           <input ref={inputRef} type="text" />
           <button
